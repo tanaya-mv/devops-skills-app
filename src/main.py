@@ -13,6 +13,7 @@ def get_total_sales():
 
 if __name__ == "__main__":
     print(f"Total Sales: {get_total_sales()}")
+    print()
 
 
 
