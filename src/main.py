@@ -9,11 +9,10 @@ def load_data(file_name):
 def get_total_sales():
     df = load_data('sales_data.csv')
     # Adding .item() converts the NumPy value to a standard Python int
-    return df['amount'].sum().item()
+    return df['sales'].sum().item()
 
 if __name__ == "__main__":
     print(f"Total Sales: {get_total_sales()}")
-    print()
 
 
 
