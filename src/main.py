@@ -2,6 +2,7 @@ import pandas as pd
 import os
 
 def load_data(file_name):
+    
     # Adjust path to look into the data folder
     path = os.path.join(os.path.dirname(__file__), 'data', file_name)
     return pd.read_csv(path)
